@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introducción a la Programación</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4fbf7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .header-content img {
+            max-height: 140px;
+        }
+
+        .header-text {
+            max-width: 600px;
+        }
+
+        .header-text h1 {
+            margin: 10px 0;
+            font-size: 1.8em;
+        }
+
+        .header-text p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            gap: 30px;
+        }
+
+        .content {
+            flex: 2;
+            min-width: 280px;
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 250px;
+            background-color: #e1f5e0;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #4caf50;
+        }
+
+        .sidebar h3 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+
+        .sidebar p {
+            margin: 8px 0;
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a.button {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #4caf50;
+            padding: 10px 18px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #388e3c;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+   .web-taller {
+    background-color: #e9f7ef;
+    border-radius: 12px;
+    padding: 40px 30px;
+    margin-top: 50px;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+.web-taller h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.web-taller .intro {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #4e4e4e;
+}
+
+.taller-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.taller-card {
+    background-color: white;
+    border-left: 5px solid #4caf50;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease;
+}
+
+.taller-card:hover {
+    transform: translateY(-5px);
+}
+
+.taller-card h3 {
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+.taller-card ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #333;
+}
+
+.taller-card li {
+    margin-bottom: 8px;
+}
+ </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="colegio.jpg" alt="Logo del Colegio">
+            <div class="header-text">
+                <h1>Instituto Técnico Superior - Pereira</h1>
+                <p>Carolina Porras - Samara Loaiza</p>
+                <p>P2 - Taller: Diseño de páginas web 2025</p>
+            </div>
+            <img src="escudo.jpg" alt="Escudo Institucional">
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2>¿Qué es la Programación?</h2>
+            <p>
+                La programación es el proceso de crear y diseñar instrucciones que una computadora puede ejecutar. 
+                Estas instrucciones se escriben en un lenguaje de programación y permiten resolver problemas, 
+                automatizar tareas y desarrollar aplicaciones de todo tipo.
+            </p>
+
+            <h2>¿Para qué sirve?</h2>
+            <p>
+                La programación sirve para desarrollar software, aplicaciones móviles, páginas web, sistemas de control 
+                y prácticamente cualquier solución tecnológica. Además, fomenta el pensamiento lógico y la resolución 
+                de problemas.
+            </p>
+
+            <h2>Aprender más</h2>
+            <p>Aquí tienes dos recursos que pueden ayudarte a iniciar tu aprendizaje:</p>
+            <ul>
+                <li><a class="button" href="pseint.html">¿Qué es PSeInt?</a></li>
+                <li><a class="button" href="guiapseint.html"> Guia PSeInt</a></li>
+            </ul>
+        </div>
+
+        <aside class="sidebar">
+            <h3>Sobre el Instituto</h3>
+            <p><strong>Nombre:</strong><br> Instituto Técnico Superior de Pereira</p>
+            <p><strong>Ubicación:</strong><br> Pereira, Risaralda – Colombia</p>
+            <p><strong>Tipo:</strong><br> Institución educativa técnica</p>
+            <p><strong>Fundado en:</strong><br> 1938</p>
+            <p><strong>Lema:</strong><br> “Disciplina, Ciencia y Trabajo”</p>
+
+      <img src="tecnico.png" alt="width="200" height="150"/></aside>
+  <section class="web-taller">
+    <h2>🌐 Taller de Diseño de Páginas Web</h2>
+    <p class="intro">
+        Este taller forma parte de la formación técnica del Instituto Técnico Superior de Pereira. Su enfoque es práctico y creativo, capacitando a los estudiantes en la creación de sitios web modernos y funcionales.
+    </p>
+
+    <div class="taller-grid">
+        <div class="taller-card">
+            <h3>🎯 Objetivo</h3>
+            <p>Aprender a estructurar, diseñar y desarrollar páginas web usando HTML, CSS y herramientas digitales actuales.</p>
+<img src="compu.png" alt="" width="275" height="183"/>
+        </div>
+        <div class="taller-card">
+            <h3>📚 Contenidos</h3>
+            <ul>
+                <li>Fundamentos de HTML y CSS</li>
+                <li>Diseño grafico por computador</li>
+                <li>Diseño y desarrollo de paginas web</li> 
+                <img src="magen.png" 
+              width="200" height="150" alt=""/>
+
+
+               
+               
+            </ul>
+        </div>
+        <div class="taller-card">
+            <h3>🛠️ Asignaturas</h3>
+            <ul>
+                <li>Programacion</li>
+                <li>Editores web</li>
+                <li>Graficacion</li>
+                <li>Publicidad y Mercadeo</li>
+                
+                <img src="sala.png" width="200" height="150" alt=""/>
+            </ul>
+        </div>
+    </div>
+</section>
+  </main>
+
+    <footer>
+      <p>© 2025 - Instituto Técnico Superior - Pereira</p>
+</footer>
+</body>
+</html>
