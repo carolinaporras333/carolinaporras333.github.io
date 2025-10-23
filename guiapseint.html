@@ -1,0 +1,126 @@
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guía Básica de PSeInt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #65AD64; /* fondo verde claro */
+      color: #000000;
+      margin: 20px;
+    }
+    h1, h2 {
+      color: #000000; /* verde más fuerte */
+    }
+    .caja {
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+	  
+    }
+    pre {
+      background-color:#35963A;
+      border: 1px solid #FFFFFF;
+      padding: 10px;
+      border-radius: 6px;
+      font-family: "Courier New", monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guía Básica de PSeInt</h1>
+  <p>Esta página explica de forma sencilla las funciones principales de <b>PSeInt</b>, con ejemplos fáciles de entender.</p>
+
+<div class="caja">
+  <h2>1. Escribir y Leer</h2
+    <p><b>Escribir:</b> muestra un mensaje en pantalla.<p><br><img src="../../Downloads/img/logo.jpg" width="200" height="110" alt=""/></p>
+  <strong>Leer:</strong> permite que el usuario escriba un valor.
+  </p>
+<pre>
+Algoritmo Saludo
+  Definir nombre Como Cadena
+  Escribir "¿Cómo te llamas?"
+  Leer nombre
+  Escribir "Hola ", nombre
+FinAlgoritmo
+    </pre
+  </div>
+
+  <div class="caja">
+    <h2>2. Variables</h2>
+    <p>Son espacios para guardar datos. Ejemplos:</p>
+    <ul>
+      <li><b>Entero:</b> números sin decimales.</li>
+      <li><b>Real:</b> números con decimales.</li>
+      <li><b>Cadena:</b> texto.</li>
+    </ul>
+    <pre>
+Definir edad Como Entero
+Definir precio Como Real
+Definir nombre Como Cadena
+    </pre>
+  </div>
+
+  <div class="caja">
+    <h2>3. Condicionales (Si...Entonces)</h2>
+    <p>Sirven para tomar decisiones.</p>
+    <pre>
+Algoritmo Nota
+  Definir nota Como Real
+  Escribir "Ingrese la nota:"
+  Leer nota
+  Si nota >= 3 Entonces
+    Escribir "Aprobado"
+  Sino
+    Escribir "Reprobado"
+  FinSi
+FinAlgoritmo
+    </pre>
+  </div>
+
+  <div class="caja">
+    <h2>4. Ciclos (Repeticiones)</h2>
+    <p>Permiten repetir instrucciones varias veces.</p>
+    <pre>
+Algoritmo RepetirNumeros
+  Definir i Como Entero
+  Para i <- 1 Hasta 5 Hacer
+    Escribir "Número: ", i
+  FinPara
+FinAlgoritmo
+    </pre>
+  </div>
+
+  <div class="caja">
+    <h2>5. Funciones y Procedimientos</h2>
+    <p>Sirven para organizar el código.</p>
+    <pre>
+Algoritmo Ejemplo
+  Funcion Sumar(a, b)
+    Sumar <- a + b
+  FinFuncion
+
+  Escribir "Resultado: ", Sumar(2,3)
+FinAlgoritmo
+    </pre>
+  </div>
+
+<div class="caja">
+    <h2>Resumen</h2>
+  <p>En PSeInt lo más importante es:</p>
+  <ul>
+    <li><b>Escribir</b> → mostrar información.</li>
+    <li><b>Leer</b> → pedir datos.</li>
+    <li><b>Variables</b> → guardar datos.</li>
+    <li><b>Si</b> → tomar decisiones.</li>
+    <li><b>Para, Mientras, Repetir</b> → repetir instrucciones.</li>
+    <li><b>Imagen de la app</b>→ <p><img src="../../Downloads/img/pagina.jpg" width="200" height="150" alt=""/></p></li>
+
+  </ul>
+  </div>
+</body>
+</html>
